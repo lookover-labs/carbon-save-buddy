@@ -107,11 +107,24 @@ export default {
 			backgroundImage: {
 				'gradient-eco': 'var(--gradient-eco)',
 				'gradient-earth': 'var(--gradient-earth)',
-				'gradient-nature': 'var(--gradient-nature)'
+				'gradient-nature': 'var(--gradient-nature)',
+				'gradient-glass': 'var(--gradient-glass)',
+				'gradient-modern': 'var(--gradient-modern)'
 			},
 			boxShadow: {
 				'eco': 'var(--shadow-eco)',
-				'soft': 'var(--shadow-soft)'
+				'soft': 'var(--shadow-soft)',
+				'glass': 'var(--shadow-glass)',
+				'modern': 'var(--shadow-modern)'
+			},
+			backdropBlur: {
+				'xs': '2px',
+			},
+			fontWeight: {
+				'medium': '500',
+				'semibold': '600',
+				'bold': '700',
+				'extrabold': '800'
 			}
 		}
 	},
