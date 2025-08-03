@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+# 🌱 Carbon Save Buddy
 
-## Project info
+Una applicazione web moderna per tracciare e ridurre la tua impronta di carbonio, costruita con React, TypeScript e Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/3cfb8553-444d-4d43-b959-a0ca83f99dbd
+## 🌟 Funzionalità
 
-## How can I edit this code?
+- 📊 **Calcolo Carbon Footprint**: Calcola la tua impronta di carbonio personale
+- 🎯 **Obiettivi Sostenibili**: Imposta e traccia obiettivi di riduzione
+- 📈 **Analytics**: Visualizza i tuoi progressi nel tempo
+- 🌍 **Dashboard Eco-friendly**: Interfaccia moderna e intuitiva
+- 📱 **Responsive Design**: Funziona perfettamente su tutti i dispositivi
 
-There are several ways of editing your application.
+## 🚀 Demo Live
 
-**Use Lovable**
+Visita l'applicazione: [https://lookover-labs.github.io/carbon-save-buddy](https://lookover-labs.github.io/carbon-save-buddy)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3cfb8553-444d-4d43-b959-a0ca83f99dbd) and start prompting.
+## 🛠️ Tecnologie Utilizzate
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React 18 + TypeScript
+- **Styling**: Tailwind CSS + shadcn/ui
+- **Build Tool**: Vite
+- **Routing**: React Router
+- **State Management**: React Query
+- **Forms**: React Hook Form + Zod
+- **Charts**: Recharts
+- **Icons**: Lucide React
 
-**Use your preferred IDE**
+## 🏃‍♂️ Avvio Rapido
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisiti
+- Node.js 18+ 
+- npm o Bun
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installazione
 
-Follow these steps:
+```bash
+# Clona il repository
+git clone https://github.com/lookover-labs/carbon-save-buddy.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Naviga nella directory
+cd carbon-save-buddy
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Installa le dipendenze
+npm install
+# oppure con Bun (più veloce)
+bun install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Avvia il server di sviluppo
 npm run dev
+# oppure
+bun run dev
 ```
 
-**Edit a file directly in GitHub**
+L'app sarà disponibile su `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📦 Build e Deploy
 
-**Use GitHub Codespaces**
+```bash
+# Build per produzione
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Preview della build
+npm run preview
 
-## What technologies are used for this project?
+# Deploy su GitHub Pages (automatico con push su main)
+npm run deploy
+```
 
-This project is built with:
+## 🤝 Contribuire
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Fai un fork del progetto
+2. Crea un branch per la tua feature (`git checkout -b feature/AmazingFeature`)
+3. Committa le tue modifiche (`git commit -m 'Add some AmazingFeature'`)
+4. Push al branch (`git push origin feature/AmazingFeature`)
+5. Apri una Pull Request
 
-## How can I deploy this project?
+## 📄 Licenza
 
-Simply open [Lovable](https://lovable.dev/projects/3cfb8553-444d-4d43-b959-a0ca83f99dbd) and click on Share -> Publish.
+Questo progetto è distribuito sotto licenza MIT. Vedi `LICENSE` per maggiori informazioni.
 
-## Can I connect a custom domain to my Lovable project?
+## 🙏 Ringraziamenti
 
-Yes, you can!
+- [shadcn/ui](https://ui.shadcn.com/) per i componenti UI
+- [Tailwind CSS](https://tailwindcss.com/) per lo styling
+- [Lucide React](https://lucide.dev/) per le icone
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Fatto con ❤️ e 🌱 per un futuro più sostenibile
